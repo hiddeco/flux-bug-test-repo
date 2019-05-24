@@ -4,11 +4,6 @@ data:
   vault-config.yml: "astring"
 kind: ConfigMap
 metadata:
-  annotations:
-    app.kubernetes.io/managed-by: kustomize
-    app.kubernetes.io/owner: sre
-    mintel.com/env: dev
-    mintel.com/skip-local-ci: true
   labels:
     app: vault-configurator
     vault_cr: vault
