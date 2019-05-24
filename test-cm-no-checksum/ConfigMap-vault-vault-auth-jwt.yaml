@@ -66,8 +66,7 @@ metadata:
   annotations:
     annotation1: kustomize
     annotation2: sre
-    annotation3: dev
-    annotation4: true
+    annotation3: true
   labels:
     app: vault-configurator
     vault_cr: vault
