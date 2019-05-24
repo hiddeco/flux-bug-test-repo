@@ -1,11 +1,7 @@
 ---
 apiVersion: v1
 data:
-  vault-config.yml: |-
-    group-aliases:
-      - name: k8s-admin
-        mountpath: jwt
-        group: admin
+  vault-config.yml: "astring"
 kind: ConfigMap
 metadata:
   annotations:
