@@ -64,10 +64,10 @@ data:
 kind: ConfigMap
 metadata:
   annotations:
-    app.kubernetes.io/managed-by: kustomize
-    app.kubernetes.io/owner: sre
-    mintel.com/env: dev
-    mintel.com/skip-local-ci: true
+    annotation1: kustomize
+    annotation2: sre
+    annotation3: dev
+    annotation4: true
   labels:
     app: vault-configurator
     vault_cr: vault
