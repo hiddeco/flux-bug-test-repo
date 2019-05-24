@@ -72,4 +72,4 @@ metadata:
     app: vault-configurator
     vault_cr: vault
   name: vault-auth-jwt
-  namespace: vault
+  namespace: default
