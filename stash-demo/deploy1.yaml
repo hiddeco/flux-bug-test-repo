@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   labels:
     app: stash-demo
+  annotations:
+    local: stash-demo
   name: stash-demo
   namespace: demo
 spec:
